@@ -13,6 +13,7 @@
 		88C735F326474BB100DE9B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C735F126474BB100DE9B3C /* Main.storyboard */; };
 		88C735FF26474BB200DE9B3C /* curly_touchbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C735FE26474BB200DE9B3C /* curly_touchbarTests.swift */; };
 		88C7360A26474BB200DE9B3C /* curly_touchbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7360926474BB200DE9B3C /* curly_touchbarUITests.swift */; };
+		88C7361826474C2100DE9B3C /* CurlyTouchbarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7361726474C2100DE9B3C /* CurlyTouchbarClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		88C7360526474BB200DE9B3C /* curly-touchbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "curly-touchbarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C7360926474BB200DE9B3C /* curly_touchbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = curly_touchbarUITests.swift; sourceTree = "<group>"; };
 		88C7360B26474BB200DE9B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C7361726474C2100DE9B3C /* CurlyTouchbarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlyTouchbarClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				88C735EB26474BB100DE9B3C /* AppDelegate.swift */,
 				88C735ED26474BB100DE9B3C /* ViewController.swift */,
+				88C7361726474C2100DE9B3C /* CurlyTouchbarClass.swift */,
 				88C735EF26474BB100DE9B3C /* Assets.xcassets */,
 				88C735F126474BB100DE9B3C /* Main.storyboard */,
 				88C735F426474BB100DE9B3C /* Info.plist */,
@@ -255,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88C735EE26474BB100DE9B3C /* ViewController.swift in Sources */,
+				88C7361826474C2100DE9B3C /* CurlyTouchbarClass.swift in Sources */,
 				88C735EC26474BB100DE9B3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
